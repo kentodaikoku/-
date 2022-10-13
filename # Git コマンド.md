@@ -1,5 +1,7 @@
 # Git コマンド
 
+- git remote set-url origin https://<ユーザ名>@github.com/<ユーザ名>/<リポジトリ名>.git
+
 - git merge-base <branch1> <brnach2>
   - 分岐したコミットの確認
 
