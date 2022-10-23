@@ -29,3 +29,16 @@
 - exec [サービス] [コマンド]
 
 ## sail コマンド
+- ディレクトリ作成or移動
+- % curl -s "https://laravel.build/example-app" | bash
+- 作成プロジェクト配下に移動
+- % ./vendor/bin/sail up
+  - sail up (-d)
+- http://localhost/ にて起動できてるかの確認
+- sail ~ にコマンド変更
+  - vi ~/.zshrc
+  - alias sail='[ -f sail ] && bash sail || bash vendor/bin/sail' 
+  - % source ~/.zshrc
+  - 以降はsail ~ でコマンド実行
+- sail down
+- sail stop ：コンテナがバックグラウンド上で実行されているときの停止法
