@@ -1,12 +1,14 @@
 # Git コマンド
 
 ## 設定コマンド
+
 - git config --global user.name []
 - git config --global user.email []
 - git config --global --list
 - git remote set-url origin https://<ユーザ名>@github.com/<ユーザ名>/<リポジトリ名>.git
 
 ## 操作コマンド
+
 - git init 
 - git add
   - git add .
@@ -25,6 +27,7 @@
   - git checkout -b <bra_name>
 - git merge <bra_name>
   - --continue
+  - --no-ff : no fast-forward
 - git merge-base <branch1> <brnach2>
   - 分岐したコミットの確認
 - git log
@@ -42,3 +45,8 @@
 - feature
 - release(staging)
 - hotfix
+
+## github fllow
+
+- main(master)
+- feature
