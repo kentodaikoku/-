@@ -27,8 +27,9 @@
 - git pull origin [main]
 
 - git branch
-  - git branch -M [main]
-  - git branch -d <bra_name>
+  - -M [main]
+  - -d <bra_name>
+  - --sort=authordate
 
 - git checkout <bra_name>
   - git checkout -b <bra_name>
