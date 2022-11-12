@@ -14,11 +14,17 @@
   - Select-String 検索対象文字列 検索対象ファイル -Encoding default
 - cat
 - less
-- sudo : スーパーユーザーの権限でコマンドを実行する
+- grep
+- sudo [command] : スーパーユーザーの権限でコマンドを実行する
 - yum : パッケージをインストールする
-  - yum install [パッケージ名]
-  - yum update [パッケージ名]
-- 
+  - install [パッケージ名]
+  - update [パッケージ名]
+- systemctl : システムサービスなどを操作する
+  - start
+  - stop
+  - restart
+  - status
+  - enable : 自動起動有効, disable : 自動起動無効
 
 ## vi
 
