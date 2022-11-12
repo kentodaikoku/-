@@ -15,6 +15,7 @@
 - cat
 - less
 - grep
+- ping [address] : 通信相手までネットワークが接続できているか確認する
 - sudo [command] : スーパーユーザーの権限でコマンドを実行する
 - yum : パッケージをインストールする
   - install [パッケージ名]
