@@ -7,9 +7,29 @@
 - git config --global --list
 - git remote set-url origin https://<ユーザ名>@github.com/<ユーザ名>/<リポジトリ名>.git
 
-## 操作コマンド
+## githubから新規レポジトリ作成後の初期設定
 
-- git init 
+### 1. ローカルレポジトリ未作成
+```
+1. echo "# git_practce" >> README.md 
+2. git init
+3. git add README.md
+4. git commit -m "first commit"
+5. git branch -M main
+6. git remote add origin [remote_repo_url]
+7. git push -u origin main
+```
+
+
+### 2. ローカルレポジトリ作成済み
+```
+1. git remote add origin [remote_repo_url]
+2. git branch -M main
+3. git push -u origin main
+```
+
+
+## 操作コマンド
 
 - git add
   - git add .
@@ -55,7 +75,7 @@
   - コミット履歴の修正（-iオプション）☆
 
 
-## git fllow
+# git fllow
 
 - main / develop
 - feature
