@@ -76,6 +76,8 @@
 
 - git remote -v
   - リモートレポジトリのURLを確認
+ 
+- rm -rf .git : レポジトリ設定消去
 
 # git fllow
 
